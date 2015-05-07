@@ -1,0 +1,3 @@
+[submodule "resources/libs/spotipy"]
+	path = resources/libs/spotipy
+	url = https://github.com/plamere/spotipy
