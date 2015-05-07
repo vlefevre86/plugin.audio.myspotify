@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.audio.myspotify" version="0.0.1" name="My Spotify" provider-name="Vincent Lefèvre">
+    <requires>
+        <import addon="xbmc.python" version="2.1.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="addon.py">
+        <provides>audio</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <platform>all</platform>
+        <summary>My Spotify</summary>
+        <description> Based off Spotlight. Spotify add-on for XBMC using native XBMC menus. It allows searching for tracks, listing: playlists, artist albums, album tracks, starred tracks and playing and queueing tracks, albums etc. It can be operated via mobile client like Yatse.</description>
+        <disclaimer>It requires a Spotify Premium account.</disclaimer>
+    </extension>
+</addon>
